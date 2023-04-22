@@ -38,8 +38,8 @@ public class Jeu {
 
         while (true) {
             grille.afficherGrille();
-            int x = demanderCoordonnee("ligne", scanner);
-            int y = demanderCoordonnee("colonne", scanner);
+            int y = demanderCoordonnee("ligne", scanner);
+            int x = demanderCoordonnee("colonne", scanner);
 
             if (!grille.estValide(x, y)) {
                 System.out.println("Coordonnées invalides !");
